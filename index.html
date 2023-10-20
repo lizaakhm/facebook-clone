@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/;;.png" type="image/x-icon">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+
+
+        <div class="FbTexts">
+
+            <h1 class="FB">facebook</h1>
+            <p class="FBP">Connect with friends and the world around you on Facebook.</p>
+        </div>
+
+
+    <div class="ALogInDiv">
+    <div class="logIn" id="contactForm">  
+        <input id="emailInput" type="text" placeholder="Email or phone number" required>
+        <input id="passwordInput" type="password" placeholder="Password" required>
+        <button id="saveButton" class="logInBtn sameBtn"  type="button">Log In</button>
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="frgtP">Forgot Password?</a>
+        <div class="line"></div>
+        <button id="openPopup" class="CreateAccBtn sameBtn"> Create new account</button>
+    </div>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Sign Up</h2>
+        <p>It’s quick and easy.</p>
+        <div class="line"></div>
+        <form action="" id="fbLogin">
+        <input required type="text" placeholder="First name"  id="firstname">
+        <input required type="text" placeholder="Last name"  id="lastname">
+        <input required  id="email2" type="text" placeholder="Email or phone number" >
+        <input required  id="password2" type="password" placeholder="New password" >
+    </form>
+
+        <div class="birthday">
+            <p>birthday</p>
+            <select id="options"></select>
+            <select id="options2"></select>
+            <select id="years"></select>
+        </div>
+
+
+    <p>Gender</p>
+    <div class="gender">
+    <div class="radio-container">
+        Female <input type="radio" name="gender" value="female"> 
+        </div>
+        <div class="radio-container">
+        Male <input type="radio" name="gender" value="male"> 
+        </div>
+        <div class="radio-container">
+        Other <input type="radio" name="gender" value="other"> 
+    </div>
+</div>
+
+<div class="policy">
+<p>People who use our service may have uploaded your contact information to Facebook.  <a href="https://www.facebook.com/help/637205020878504" >Learn more.</a> </p>
+
+   <p> By clicking Sign Up, you agree to our  <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Privacy Policy </a> and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"> Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+</div>
+
+<button id="singupButton" class="singUp sameBtn" type="button" > Sing UP</button>
+    </div>
+</div>
+
+</div>
+
+
+    <script src="index.js">  </script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

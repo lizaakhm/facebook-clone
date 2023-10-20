@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/;;.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Facebook</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+           <a href="index.html"> <img  id="logo" src="./assets/;;.png" alt="Logo"></a>
+            <input id="search" type="text" placeholder="Search on Facebook">
+        </div>
+
+        <div class="nav-middle">
+            <a href="#" class="active">
+                <i class="fa fa-home"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa fa-user-friends"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa fa-play-circle"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa fa-users"></i>
+            </a>
+        </div>
+
+        <div class="nav-right">
+            <span class="profile"></span>
+
+            <a href="#">
+                <i class="fa fa-bell"></i>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-ellipsis-h"></i>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="left-panel">
+            <ul>
+                <li>
+                    <span class="profile"></span>
+                    <p>name of person</p>
+                </li>
+                <li>
+                    <i id="friends" class="fa fa-user-friends one "></i>
+                    <p>friends</p>
+                </li>
+                <li>
+                    <i id="saved" class="fa fa-bookmark  one"></i>
+                    <p>saved</p>
+                </li>
+                <li>
+                    <i id="users" class="fa fa-users  one"></i>
+                    <p>Groups</p>
+                </li>
+                <li>
+                    <i id="video" class="fa fa-play-circle  one"></i>
+                    <p>video</p>
+                </li>
+                <li>
+                    <i id="flag" class="fa fa-flag  one"></i>
+                    <p>pages</p>
+                </li>
+                <li>
+                    <i id="messenger" class="fab fa-facebook-messenger  one"></i>
+                    <p>Messenger</p>
+                </li>
+                <li>
+                    <i id="recent" class="fa fa-bullhorn one"></i>
+                    <p>Recent ad activity</p>
+                </li>
+                <li>
+                    <i id="more" class="fas fa-briefcase one"></i>
+                    <p>more</p>
+                </li>
+           
+
+        
+        </div>
+
+
+        <div class="middle-panel">
+
+            <div class="story-section">
+
+                <div class="story create">
+                    <div class="dp-image">
+                        <img src="./assets/l60Hf.png" alt="Profile pic">
+                    </div>
+                    <span class="dp-container">
+                        <i class="fa fa-plus"></i>
+                    </span>
+                    <span class="name">Create Story</span>
+                </div>
+
+
+                <div class="story">
+                    <img src="./assets/236da6b155e981ab13be3753ec01fc96.jpg" alt="name's story">
+                    <div class="dp-container">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </div>
+
+                <div class="story">
+                    <img src="./assets/ded642688a301d00fbb838cb37525ee5.jpg" alt="Story image">
+                    <span class="dp-container">
+                        <img src="./assets/l60Hf.png" alt="Profile pic">
+                    </span>
+                    <span class="name">friend</span>
+                </div>
+
+                <div class="story">
+                    <img src="./assets/65908f1f39e82e0b4721ce670198c518.jpg" alt="Story image">
+                    <span class="dp-container">
+                        <img src="./assets/l60Hf.png" alt="Profile pic">
+                    </span>
+                    <span class="name">friend</span>
+                </div>
+            </div>
+
+            
+
+            <div class="post create">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <input id="posting" type="button" placeholder="name, would you share your thougts with us?" />
+                </div>
+                
+                <div class="post-bottom">
+                    <div class="action">
+                        <i id="vid" class="fa fa-video"></i>
+                        <span>Live video</span>
+                    </div>
+                    <div class="action">
+                        <i id="img" class="fa fa-image"></i>
+                        <span >Photo/Video</span>
+                    </div>
+                    <div class="action">
+                        <i id="feeling" class="fa fa-smile"></i>
+                        <span>Feeling/Activity</span>
+                    </div>
+
+                
+                </div>
+            </div>
+
+
+            <div class="container" id="postContainer">  </div>
+
+        </div>
+        <div class="right-panel">
+            <div class="pages-section">
+                <h4>Your pages</h4>
+                <a class='page' href="#">
+                    <div class="dp">
+                        <img src="./assets/284605836_138198705468823_7547031581989280766_n.jpg" alt="">
+                    </div>
+                    <p class="name">re;educate</p>
+                </a>
+
+                <a class='page' href="#">
+                    <div class="dp">
+                        <img src="./assets/coding.jpg" alt="">
+                    </div>
+                    <p class="name">coding</p>
+                </a>
+            </div>
+
+            <div class="friends-section">
+                <h4>Friends</h4>
+                <a class='friend' href="#">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </a>
+
+                <a class='friend' href="#">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </a>
+
+                <a class="friend" href="#">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </a>
+
+                <a class="friend" href="#">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </a>
+
+                <a class="friend" href="#">
+                    <div class="dp">
+                        <img src="./assets/l60Hf.png" alt="">
+                    </div>
+                    <p class="name">friend</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--post popup-->
+    
+    <div id="popup2" class="popup2">
+        <section class="post2">
+    <div class="container2">
+      <div class="wrapper">
+        <section class="post2">
+          <header>Create Post</header>
+          <form action="#">
+            <div class="content">
+              <img src="./assets/l60Hf.png" alt="logo">
+              <div class="details">
+                <p>name</p>
+                <div class="privacy">
+                  <i class="fas fa-user-friends"></i>
+                  <span>Friends</span>
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+
+
+
+            <textarea id="Mind" placeholder="What's on your mind, name?" spellcheck="false" required></textarea>
+            <span id="error"> </span>
+            <div class="theme-emoji">
+              <img src="./assets/theme.svg" alt="theme">
+              <img src="./assets/smile.svg" alt="smile">
+            </div>
+            <div class="options">
+              <p>Add to Your Post</p>
+              <ul class="list">
+                <li><img src="./assets/gallery.svg" alt="gallery"></li>
+                <li><img src="./assets/tag.svg" alt="gallery"></li>
+                <li><img src="./assets/emoji.svg" alt="gallery"></li>
+                <li><img src="./assets/mic.svg" alt="gallery"></li>
+                <li><img src="./assets/more.svg" alt="gallery"></li>
+              </ul>
+            </div>
+            <button id="PostBTN" onclick="addPost()" >Post</button>
+          </form>
+        </section>
+
+
+
+
+
+        <section class="audience">
+          <header>
+            <div class="arrow-back"><i class="fas fa-arrow-left"></i></div>
+            <p>Select Audience</p>
+          </header>
+          <div class="content">
+            <p>Who can see your post?</p>
+            <span>Your post will show up in News Feed, on your profile and in search results.</span>
+          </div>
+          <ul class="list">
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-globe-asia"></i></div>
+                <div class="details">
+                  <p>Public</p>
+                  <span>Anyone on or off Facebook</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <li class="active">
+              <div class="column">
+                <div class="icon"><i class="fas fa-user-friends"></i></div>
+                <div class="details">
+                  <p>Friends</p>
+                  <span>Your friends on Facebook</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-user"></i></div>
+                <div class="details">
+                  <p>Specific</p>
+                  <span>Only show to some friends</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-lock"></i></div>
+                <div class="details">
+                  <p>Only me</p>
+                  <span>Only you can see your post</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-cog"></i></div>
+                <div class="details">
+                  <p>Custom</p>
+                  <span>Include and exclude friends</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+</div>
+    </section>
+
+<script src="index.js"></script>
+</body>
+
+</html>
